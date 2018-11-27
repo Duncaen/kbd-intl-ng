@@ -1,0 +1,38 @@
+include "us-intl.map"
+
+! altgr+1 is ¹
+! altgr+! is ¡
+altgr       keycode 2 = onesuperior
+altgr shift keycode 2 = exclamdown
+
+! altgr+r is ë
+! altgr+R is Ë
+altgr       keycode 18 = ediaeresis
+altgr shift keycode 18 = Ediaeresis
+
+! altgr+j is ï
+! altgr+J is Ï
+altgr       keycode 18 = idiaeresis
+altgr shift keycode 18 = Idiaeresis
+
+! altgr+x is œ
+! altgr+X is Œ
+altgr       keycode 45 = oe
+altgr shift keycode 45 = OE
+
+! altgr+v is ®
+! altgr+V is ®
+altgr       keycode 47 = registered
+altgr shift keycode 47 = registered
+
+! altgr+6
+# altgr       keycode 7 = dead_circumflex
+altgr shift keycode 7 = onequarter
+
+! altgr+7
+# altgr       keycode 8 = dead_horn
+altgr shift keycode 8 = onehalf
+
+! altgr+8
+# altgr       keycode 9 = dead_ogonek
+altgr shift keycode 9 = threequarters

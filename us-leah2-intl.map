@@ -1,0 +1,70 @@
+include "us-altgr-intl.map"
+
+! map CapsLock to CtrlR
+keycode 58 = CtrlR
+
+keymaps 0-2,4-6,8-9,128,129,136
+! 128 = ctrlr
+! 129 = ctrlr+shift
+! 136 = ctrlr+alt
+
+! umlauts on caps-aou, sharp s on caps-s.
+ctrlr keycode 30 = adiaeresis
+ctrlr shift keycode 30 = Adiaeresis
+ctrlr keycode 31 = ssharp
+ctrlr shift keycode 31 = ssharp
+ctrlr keycode 24 = odiaeresis
+ctrlr shift keycode 24 = Odiaeresis
+ctrlr keycode 22 = udiaeresis
+ctrlr shift keycode 22 = Udiaeresis
+
+! at in caps-q, euro on caps-e, mu in caps-m
+ctrlr keycode 16 = at
+ctrlr keycode 18 = euro
+ctrlr keycode 50 = mu
+
+! cursor keys on caps-hjkl
+ctrlr       keycode 35 = Left
+ctrlr shift keycode 35 = Home
+ctrlr       keycode 36 = Down
+ctrlr shift keycode 36 = Next
+ctrlr       keycode 37 = Up
+ctrlr shift keycode 37 = Prior
+ctrlr 	    keycode 38 = Right
+ctrlr shift keycode 38 = End
+
+! 5 is €, 8 is (, 9 is )
+ctrlr keycode  6 = euro
+ctrlr keycode  9 = parenleft
+ctrlr keycode 10 = parenright
+
+! Typographic features:
+! . is ellipsis, shift-. is midpoint, alt-. is irony.
+! - is en-dash, shift-- is em-dash.
+! ! is interrobang.
+! space is visible space, shift-space is nonbreaking space.
+! alt-s is long s, alt-y is ezh.
+ctrlr       keycode 52 = ellipsis
+ctrlr shift keycode 52 = periodcentered
+ctrlr       keycode 53 = endash
+ctrlr shift keycode 53 = emdash
+ctrlr shift keycode  2 = U+203D
+ctrlr       keycode 57 = U+2423
+ctrlr shift keycode 57 = U+00A0
+ctrlr alt   keycode 31 = ssharp
+ctrlr alt   keycode 21 = U+0292
+
+! at on caps-q, euro on caps-e, mu on caps-m
+
+! caps-[ ü
+!altgr       keycode 26 = udiaeresis
+!shift altgr keycode 26 = Udiaeresis
+!
+!! caps-; ö
+!altgr       keycode  39 = odiaeresis
+!shift altgr keycode  39 = Odiaeresis
+!
+!
+!! caps-' ä
+!altgr       keycode  40 = adiaeresis
+!shift altgr keycode  40 = Adiaeresis

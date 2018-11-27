@@ -1,0 +1,167 @@
+! altgr+shift
+keymaps 0-3
+
+! `
+altgr       keycode 41 = grave
+altgr shift keycode 41 = asciitilde
+
+! 1
+altgr       keycode 2 = exclamdown
+altgr shift keycode 2 = onesuperior
+
+! 2
+altgr       keycode 3 = twosuperior
+# altgr shift keycode 3 = dead_doubleacute
+
+! 3
+altgr       keycode 4 = threesuperior
+# altgr shift keycode 4 = dead_macron
+
+! 4
+altgr       keycode 5 = currency
+altgr shift keycode 5 = sterling
+
+! 5
+altgr       keycode 6 = euro
+# altgr shift keycode 6 = dead_cedilla
+
+! 6
+altgr       keycode 7 = onequarter
+altgr shift keycode 7 = asciicircum
+
+! 7
+altgr       keycode 8 = onehalf
+# altgr shift keycode 8 = dead_horn
+
+! 8
+altgr       keycode 9 = threequarters
+# altgr shift keycode 9 = dead_ogonek
+
+! 9
+altgr       keycode 10 = U+2018 # ‘ leftsinglequotemark
+# altgr shift keycode 10 = dead_breve
+
+! 0
+altgr       keycode 11 = U+2019 # ’ rightsinglequotemark
+# altgr shift keycode 11 = dead_abovering
+
+! -
+altgr       keycode 12 = yen
+# altgr shift keycode 12 = dead_belowdot
+
+! =
+altgr       keycode 13 = multiply
+altgr shift keycode 13 = division
+
+! q
+altgr       keycode 16 = adiaeresis
+altgr shift keycode 16 = Adiaeresis
+
+! w
+altgr       keycode 17 = aring
+altgr shift keycode 17 = Aring
+
+! e
+altgr       keycode 18 = eacute
+altgr shift keycode 18 = Eacute
+
+! r
+altgr       keycode 19 = registered
+altgr shift keycode 19 = registered
+
+! t
+altgr       keycode 20 = thorn
+altgr shift keycode 20 = THORN
+
+! y
+altgr       keycode 21 = udiaeresis
+altgr shift keycode 21 = Udiaeresis
+
+! u
+altgr       keycode 22 = uacute
+altgr shift keycode 22 = Uacute
+
+! i
+altgr       keycode 23 = iacute
+altgr shift keycode 23 = Iacute
+
+! o
+altgr       keycode 24 = oacute
+altgr shift keycode 24 = Oacute
+
+! p
+altgr       keycode 25 = odiaeresis
+altgr shift keycode 25 = Odiaeresis
+
+! [
+altgr       keycode 26 = guillemotleft
+altgr shift keycode 26 = U+201C # “ leftsinglequotemark
+
+! ]
+altgr       keycode 27 = guillemotright
+altgr shift keycode 27 = U+201D # ” rightdoublequotemark
+
+! a
+altgr       keycode 30 = aacute
+altgr shift keycode 30 = Aacute
+
+! s
+altgr       keycode 31 = ssharp
+altgr shift keycode 31 = section
+
+! d
+altgr       keycode 32 = eth
+altgr shift keycode 32 = ETH
+
+! k
+altgr       keycode 37 = oe
+altgr shift keycode 37 = OE
+
+! l
+altgr       keycode 38 = oslash
+altgr shift keycode 38 = Ooblique
+
+! ;
+altgr       keycode 39 = paragraph
+altgr shift keycode 39 = degree
+
+! '
+altgr       keycode 40 = apostrophe
+altgr shift keycode 40 = quotedbl
+! z
+altgr       keycode 44 = ae
+altgr shift keycode 44 = AE
+
+! c
+altgr       keycode 46 = copyright
+altgr shift keycode 46 = cent
+
+! n
+altgr       keycode 49 = ntilde
+altgr shift keycode 49 = Ntilde
+
+! m
+altgr       keycode 50 = mu
+altgr shift keycode 50 = mu
+
+! ,
+altgr       keycode 51 = ccedilla
+altgr shift keycode 51 = Ccedilla
+
+! .
+# altgr       keycode 52 = dead_abovedot
+# altgr shift keycode 52 = dead_caron
+
+! /
+altgr       keycode 53 = questiondown
+# altgr shift keycode 53 = dead_hook
+
+! \
+            keycode 43 = backslash bar
+altgr       keycode 43 = notsign
+altgr shift keycode 43 = brokenbar
+
+! <
+            keycode 86 = backslash bar
+altgr       keycode 86 = backslash
+altgr shift keycode 86 = bar
